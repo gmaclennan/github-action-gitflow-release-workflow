@@ -7,7 +7,7 @@ You are welcome to use it for inspiration for your own release workflows or mayb
 
 If you are using the workflows as they are in this repository, there are only two manual steps for releasing a new version:
 
-1. Create a ticket that is titled "Release version x.y.z" and label it with "release".
+1. Tag a commit on the `dev` branch with a semver tag postfixed with `-RC`: `vX.Y.Z-RC` e.g. `v1.3.2-RC`
 2. Merge the PR that is created for you.
 
 The automation will do the following things:
