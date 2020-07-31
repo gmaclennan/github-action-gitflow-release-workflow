@@ -2,14 +2,13 @@ name: "Draft new release"
 
 on:
   push:
-    branches-ignore:
-      - '!dev'
     tags:
       - v[0-9]+.[0-9]+.[0-9]+-rc
       - v[0-9]+.[0-9]+.[0-9]+-RC
 
 jobs:
   draft-new-release:
+    if: github.event.base_ref == 'refs/heads/dev'
     name: "Draft a new release"
     runs-on: ubuntu-latest
     steps:
