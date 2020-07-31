@@ -11,6 +11,10 @@ jobs:
     name: "Draft a new release"
     runs-on: ubuntu-latest
     steps:
+      - name: Dump GitHub context
+        env:
+            GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
       - uses: actions/checkout@v2
 
       - name: Extract version from tag name

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v1.4.5] - 2020-07-31
+
+-   Only run on dev branch
+
 ## [v1.4.1] - 2020-07-31
 
 ## [1.4.0] - 2020-02-22
@@ -45,7 +49,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Everything since the beginning!
 
-[Unreleased]: https://github.com/gmaclennan/github-action-gitflow-release-workflow/compare/v1.4.1...HEAD
+[Unreleased]: https://github.com/gmaclennan/github-action-gitflow-release-workflow/compare/v1.4.5...HEAD
+
+[v1.4.5]: https://github.com/gmaclennan/github-action-gitflow-release-workflow/compare/v1.4.1...v1.4.5
 
 [v1.4.1]: https://github.com/gmaclennan/github-action-gitflow-release-workflow/compare/1.4.0...v1.4.1
 
